@@ -17,7 +17,7 @@ public class Board : MonoBehaviour
     void Update()
     {
         float distance = Vector3.Distance(gameObject.transform.position, SeatPosition.transform.position);
-        if (Input.GetKeyDown(KeyCode.E) && distance<=30f)
+        if (Input.GetKeyDown(KeyCode.E) && distance<=5f)
         {
             playerIsOnSpeeder = !playerIsOnSpeeder;
 
