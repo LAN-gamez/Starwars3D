@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: c47d41dc6dd1e9749bb70eea29723472, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 342b9a2d50c7fa44f82ac94eba0fc4cb, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.16571331, g: 0.06979391, b: 0.051828764, a: 1}
+  m_IndirectSpecularColor: {r: 0.06333752, g: 0.061603554, b: 0.063561834, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 106552176}
   - component: {fileID: 106552178}
   - component: {fileID: 106552177}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: AircraftWingsJetFlapLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -214,7 +214,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 136459265}
-  m_Layer: 8
+  m_Layer: 3
   m_Name: Particles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -247,7 +247,7 @@ GameObject:
   m_Component:
   - component: {fileID: 154803228}
   - component: {fileID: 154803229}
-  m_Layer: 8
+  m_Layer: 3
   m_Name: WheelLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -309,7 +309,7 @@ GameObject:
   - component: {fileID: 161094170}
   - component: {fileID: 161094172}
   - component: {fileID: 161094171}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: AircraftFuselageRudderLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -391,7 +391,7 @@ GameObject:
   - component: {fileID: 183138535}
   - component: {fileID: 183138537}
   - component: {fileID: 183138536}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: AircraftWingsJetAileronRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -472,7 +472,7 @@ GameObject:
   m_Component:
   - component: {fileID: 220714155}
   - component: {fileID: 220714156}
-  m_Layer: 8
+  m_Layer: 3
   m_Name: WheelRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -534,7 +534,7 @@ GameObject:
   - component: {fileID: 225653826}
   - component: {fileID: 225653828}
   - component: {fileID: 225653827}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: AircraftWingsJetSlatRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -616,7 +616,7 @@ GameObject:
   - component: {fileID: 276697492}
   - component: {fileID: 276697494}
   - component: {fileID: 276697493}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: AircraftWingsJetSlatLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -698,7 +698,7 @@ GameObject:
   - component: {fileID: 307787711}
   - component: {fileID: 307787713}
   - component: {fileID: 307787712}
-  m_Layer: 8
+  m_Layer: 3
   m_Name: TailfinRightBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -750,7 +750,7 @@ GameObject:
   m_Component:
   - component: {fileID: 308134510}
   - component: {fileID: 308134506}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SpawnpointRHT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -772,7 +772,7 @@ MonoBehaviour:
   InputAxisToInitateSpawnedObject: Fire1
   spawnPoint: {fileID: 0}
   projectTilePrefab: {fileID: 8566811209529854236, guid: 6ed37f9a9dfce7f43a59b9678bf58dc6, type: 3}
-  projectTileSpeed: 100
+  projectTileSpeed: 500
   TagsOfObjectsToAttack: []
   DistanceToStartAttacking: 999
   secondsBetweenProjectiles: 0.25
@@ -805,7 +805,7 @@ GameObject:
   - component: {fileID: 335157337}
   - component: {fileID: 335157339}
   - component: {fileID: 335157338}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: AircraftWingsJetDoorLeftFront
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -887,7 +887,7 @@ GameObject:
   - component: {fileID: 385684729}
   - component: {fileID: 385684731}
   - component: {fileID: 385684730}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: AircraftWingsJetAileronLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -969,7 +969,7 @@ GameObject:
   - component: {fileID: 393551489}
   - component: {fileID: 393551491}
   - component: {fileID: 393551490}
-  m_Layer: 8
+  m_Layer: 3
   m_Name: WingRightBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1020,7 +1020,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 432659496}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: AircraftFuselage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1087,6 +1087,120 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d86e6c6b9ce74f9ab00b6c214035130, type: 3}
+--- !u!1 &566591653 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 132870, guid: 27fe6d2a15a377f4587f716a2d37ca8a, type: 3}
+  m_PrefabInstance: {fileID: 1383387417}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &566591656
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 566591653}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!1 &645441930
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 645441932}
+  - component: {fileID: 645441931}
+  m_Layer: 0
+  m_Name: Directional Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &645441931
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 645441930}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 1
+  m_Shape: 0
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &645441932
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 645441930}
+  m_LocalRotation: {x: 0.095214956, y: -0.92545587, z: 0.15369396, w: 0.3329321}
+  m_LocalPosition: {x: 6660.3887, y: 2410.2163, z: 10189.526}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 20.357, y: -141.24, z: -4.521}
 --- !u!1 &665941475
 GameObject:
   m_ObjectHideFlags: 0
@@ -1098,7 +1212,7 @@ GameObject:
   - component: {fileID: 665941476}
   - component: {fileID: 665941478}
   - component: {fileID: 665941477}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: AircraftWingsJetDoorRightRear
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1180,6 +1294,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: JSF Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 190938232451656209, guid: 642be26338399b34eae3cb208a9ed315, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 190938232451656209, guid: 642be26338399b34eae3cb208a9ed315, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 715379524239503531, guid: 642be26338399b34eae3cb208a9ed315, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -1235,6 +1357,22 @@ PrefabInstance:
     - target: {fileID: 715379524239503531, guid: 642be26338399b34eae3cb208a9ed315, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 888048168473563286, guid: 642be26338399b34eae3cb208a9ed315, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 888048168473563286, guid: 642be26338399b34eae3cb208a9ed315, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 8728921229107164969, guid: 642be26338399b34eae3cb208a9ed315, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8728921229107164969, guid: 642be26338399b34eae3cb208a9ed315, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 642be26338399b34eae3cb208a9ed315, type: 3}
@@ -1344,7 +1482,7 @@ GameObject:
   - component: {fileID: 725682948}
   - component: {fileID: 725682947}
   - component: {fileID: 725682946}
-  m_Layer: 8
+  m_Layer: 3
   m_Name: AfterburnerLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6149,7 +6287,7 @@ GameObject:
   - component: {fileID: 726498853}
   - component: {fileID: 726498855}
   - component: {fileID: 726498854}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: AircraftWingsJetFlapRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6229,7 +6367,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 734197871}
-  m_Layer: 8
+  m_Layer: 3
   m_Name: Trails
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6263,7 +6401,7 @@ GameObject:
   - component: {fileID: 748209428}
   - component: {fileID: 748209430}
   - component: {fileID: 748209429}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: AircraftWingsJetGearFront
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6346,7 +6484,7 @@ GameObject:
   - component: {fileID: 851399863}
   - component: {fileID: 851399865}
   - component: {fileID: 851399864}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: AircraftWingsJetGearRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6429,7 +6567,7 @@ GameObject:
   - component: {fileID: 862837634}
   - component: {fileID: 862837636}
   - component: {fileID: 862837635}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: AircraftFuselageRudderRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6509,7 +6647,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 930351086}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: AircraftWingsJet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6556,7 +6694,7 @@ GameObject:
   - component: {fileID: 937374132}
   - component: {fileID: 937374131}
   - component: {fileID: 937374130}
-  m_Layer: 8
+  m_Layer: 3
   m_Name: Glow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11338,7 +11476,7 @@ GameObject:
   - component: {fileID: 968113413}
   - component: {fileID: 968113415}
   - component: {fileID: 968113414}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: AircraftFuselageGearDoorLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11420,7 +11558,7 @@ GameObject:
   - component: {fileID: 997140106}
   - component: {fileID: 997140108}
   - component: {fileID: 997140107}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: AircraftWingsJetWing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11501,7 +11639,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1011823241}
   - component: {fileID: 1011823242}
-  m_Layer: 8
+  m_Layer: 3
   m_Name: BodyRightCapsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11547,7 +11685,7 @@ GameObject:
   - component: {fileID: 1050579220}
   - component: {fileID: 1050579222}
   - component: {fileID: 1050579221}
-  m_Layer: 8
+  m_Layer: 3
   m_Name: WingLeftBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11637,8 +11775,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.0378418, y: 2.6068516, z: 0.7139282}
-  m_Center: {x: -1.6916504, y: -0.39548206, z: -0.14303589}
+  m_Size: {x: 1.0378416, y: 2.307262, z: 0.7139282}
+  m_Center: {x: -1.6916503, y: -0.34029517, z: -0.14303587}
 --- !u!65 &1055415592
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11679,6 +11817,19 @@ CapsuleCollider:
   m_Height: 2.8032079
   m_Direction: 2
   m_Center: {x: 0, y: 0.08, z: -1.23}
+--- !u!65 &1055415596
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1055415587}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.5884376, y: 2.461376, z: 5.7778587}
+  m_Center: {x: -0.023582188, y: -0.33283484, z: 0.2716047}
 --- !u!1 &1111557804
 GameObject:
   m_ObjectHideFlags: 0
@@ -11690,7 +11841,7 @@ GameObject:
   - component: {fileID: 1111557805}
   - component: {fileID: 1111557807}
   - component: {fileID: 1111557806}
-  m_Layer: 8
+  m_Layer: 3
   m_Name: AileronLeftBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11743,7 +11894,7 @@ GameObject:
   - component: {fileID: 1124147407}
   - component: {fileID: 1124147409}
   - component: {fileID: 1124147408}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: AircraftFuselageBody
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11824,7 +11975,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1131525768}
   - component: {fileID: 1131525766}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SpawnpointLFT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11846,7 +11997,7 @@ MonoBehaviour:
   InputAxisToInitateSpawnedObject: Fire1
   spawnPoint: {fileID: 0}
   projectTilePrefab: {fileID: 8566811209529854236, guid: 6ed37f9a9dfce7f43a59b9678bf58dc6, type: 3}
-  projectTileSpeed: 100
+  projectTileSpeed: 500
   TagsOfObjectsToAttack: []
   DistanceToStartAttacking: 999
   secondsBetweenProjectiles: 0.25
@@ -11902,7 +12053,7 @@ MonoBehaviour:
   m_LockStageInInspector: 
   m_StreamingVersion: 20170927
   m_Priority: 32
-  m_StandbyUpdate: 2
+  m_StandbyUpdate: 1
   m_LookAt: {fileID: 1302442629}
   m_Follow: {fileID: 1302442629}
   m_Lens:
@@ -11914,7 +12065,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 2.4267516, y: 1}
+    m_SensorSize: {x: 1.6541245, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -11930,8 +12081,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1231254591}
-  m_LocalRotation: {x: -0.03189926, y: -0.00000001903246, z: -6.0743044e-10, w: 0.9994911}
-  m_LocalPosition: {x: 3467, y: 42.16401, z: 5487.416}
+  m_LocalRotation: {x: -0.031899255, y: -0.000000017071189, z: -5.4483545e-10, w: 0.9994911}
+  m_LocalPosition: {x: 3649, y: 49.16401, z: 5744.416}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 720384882}
@@ -11949,7 +12100,7 @@ GameObject:
   - component: {fileID: 1238334995}
   - component: {fileID: 1238334997}
   - component: {fileID: 1238334996}
-  m_Layer: 8
+  m_Layer: 3
   m_Name: TailfinLeftBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12001,7 +12152,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1285747157}
   - component: {fileID: 1285747158}
-  m_Layer: 8
+  m_Layer: 3
   m_Name: NoseSphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12045,7 +12196,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1299415696}
   - component: {fileID: 1299415697}
-  m_Layer: 8
+  m_Layer: 3
   m_Name: WheelFront
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12114,7 +12265,7 @@ GameObject:
   - component: {fileID: 1302442622}
   - component: {fileID: 1302442621}
   - component: {fileID: 1302442630}
-  m_Layer: 8
+  m_Layer: 3
   m_Name: JediStarFighter
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -12251,15 +12402,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 235a6615124795442b98c1f03500003e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MaxEnginePower: 8.91
+  m_MaxEnginePower: 20
   m_Lift: 0.002
   m_ZeroLiftSpeed: 300
   m_RollEffect: 0.75
   m_PitchEffect: 0.75
   m_YawEffect: 0.2
-  m_BankedTurnEffect: 0.5
+  m_BankedTurnEffect: 0
   m_AerodynamicEffect: 7.3
-  m_AutoTurnPitch: 0.5
+  m_AutoTurnPitch: 0
   m_AutoRollLevel: 0.1
   m_AutoPitchLevel: 0.1
   m_AirBrakesEffect: 3
@@ -12276,7 +12427,7 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 0.02
   m_AngularDrag: 0.05
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -12289,7 +12440,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1302442620}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3467, y: 36, z: 5506}
+  m_LocalPosition: {x: 3649, y: 43, z: 5763}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1851237400}
@@ -12311,7 +12462,7 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1302442620}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
@@ -12328,7 +12479,7 @@ GameObject:
   - component: {fileID: 1329320356}
   - component: {fileID: 1329320358}
   - component: {fileID: 1329320357}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: AircraftFuselageGearDoorRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12410,6 +12561,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EarthHigh
       objectReference: {fileID: 0}
+    - target: {fileID: 132870, guid: 27fe6d2a15a377f4587f716a2d37ca8a, type: 3}
+      propertyPath: m_TagString
+      value: Planet
+      objectReference: {fileID: 0}
     - target: {fileID: 426654, guid: 27fe6d2a15a377f4587f716a2d37ca8a, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -12470,40 +12625,17 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: f13991357ee03cb41a977477981be53f, type: 2}
-    m_RemovedComponents: []
+    - target: {fileID: 11491094, guid: 27fe6d2a15a377f4587f716a2d37ca8a, type: 3}
+      propertyPath: spin
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 492481760403712530, guid: 27fe6d2a15a377f4587f716a2d37ca8a, type: 3}
+      propertyPath: sceneToLoad
+      value: Tat
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 11491094, guid: 27fe6d2a15a377f4587f716a2d37ca8a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 27fe6d2a15a377f4587f716a2d37ca8a, type: 3}
---- !u!1 &1383387418 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 132870, guid: 27fe6d2a15a377f4587f716a2d37ca8a, type: 3}
-  m_PrefabInstance: {fileID: 1383387417}
-  m_PrefabAsset: {fileID: 0}
---- !u!135 &1383387419
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1383387418}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 22.88
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1383387420
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1383387418}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3fff3044d5a051349b670b6453fb2d63, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tagOfObjectToTriggerSceneLoad: Player
-  sceneToLoad: Tat
 --- !u!1 &1431449753
 GameObject:
   m_ObjectHideFlags: 0
@@ -12515,7 +12647,7 @@ GameObject:
   - component: {fileID: 1431449754}
   - component: {fileID: 1431449756}
   - component: {fileID: 1431449755}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: AircraftWingsJetGearLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12677,7 +12809,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1587048192}
   - component: {fileID: 1587048193}
-  m_Layer: 8
+  m_Layer: 3
   m_Name: Trail Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12817,7 +12949,7 @@ GameObject:
   - component: {fileID: 1597618202}
   - component: {fileID: 1597618204}
   - component: {fileID: 1597618203}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: AircraftWingsJetGearWheelFront
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12898,7 +13030,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1613849779}
   - component: {fileID: 1613849780}
-  m_Layer: 8
+  m_Layer: 3
   m_Name: BodyLeftCapsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12944,7 +13076,7 @@ GameObject:
   - component: {fileID: 1685588971}
   m_Layer: 0
   m_Name: Helpers
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12977,7 +13109,7 @@ GameObject:
   - component: {fileID: 1730686253}
   - component: {fileID: 1730686252}
   - component: {fileID: 1730686251}
-  m_Layer: 8
+  m_Layer: 3
   m_Name: AfterburnerRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17782,7 +17914,7 @@ GameObject:
   - component: {fileID: 1732426516}
   - component: {fileID: 1732426518}
   - component: {fileID: 1732426517}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: AircraftWingsJetGearWheelRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17864,7 +17996,7 @@ GameObject:
   - component: {fileID: 1754056837}
   - component: {fileID: 1754056839}
   - component: {fileID: 1754056838}
-  m_Layer: 8
+  m_Layer: 3
   m_Name: WingRightBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17918,7 +18050,7 @@ GameObject:
   - component: {fileID: 1774176223}
   - component: {fileID: 1774176222}
   - component: {fileID: 1774176221}
-  m_Layer: 8
+  m_Layer: 3
   m_Name: Glow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22695,7 +22827,7 @@ GameObject:
   - component: {fileID: 1799954036}
   - component: {fileID: 1799954038}
   - component: {fileID: 1799954037}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: AircraftWingsJetGearWheelLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22775,7 +22907,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1851237400}
-  m_Layer: 8
+  m_Layer: 3
   m_Name: Colliders
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22887,8 +23019,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1910512609}
-  m_LocalRotation: {x: -0.03189926, y: -0.00000001903246, z: -6.0743044e-10, w: 0.9994911}
-  m_LocalPosition: {x: 3467, y: 42.16401, z: 5487.416}
+  m_LocalRotation: {x: -0.031899255, y: -0.000000017071189, z: -5.4483545e-10, w: 0.9994911}
+  m_LocalPosition: {x: 3649, y: 49.16401, z: 5744.416}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -22938,7 +23070,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1924238176}
   - component: {fileID: 1924238177}
-  m_Layer: 8
+  m_Layer: 3
   m_Name: BodyCentreCapsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22983,7 +23115,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1995922836}
   - component: {fileID: 1995922837}
-  m_Layer: 8
+  m_Layer: 3
   m_Name: NoseCapsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23029,7 +23161,7 @@ GameObject:
   - component: {fileID: 2014725904}
   - component: {fileID: 2014725906}
   - component: {fileID: 2014725905}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: AircraftWingsJetDoorLeftRear
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23111,7 +23243,7 @@ GameObject:
   - component: {fileID: 2031871558}
   - component: {fileID: 2031871560}
   - component: {fileID: 2031871559}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: AircraftWingsJetDoorRightFront
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23192,7 +23324,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2074203680}
   - component: {fileID: 2074203681}
-  m_Layer: 8
+  m_Layer: 3
   m_Name: Trail Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}

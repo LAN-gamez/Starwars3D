@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 426654}
   - component: {fileID: 11491094}
+  - component: {fileID: 8649888191627061333}
+  - component: {fileID: 1094577267917692126}
   m_Layer: 0
   m_Name: EarthHigh
   m_TagString: Untagged
@@ -47,10 +49,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spin: 1
   spinParent: 0
-  speed: 1
+  speed: 0.25
   clockwise: 1
   direction: 1
   directionChangeSpeed: 2
+--- !u!135 &8649888191627061333
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 132870}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 23.8
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1094577267917692126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 132870}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fff3044d5a051349b670b6453fb2d63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tagOfObjectToTriggerSceneLoad: Player
+  sceneToLoad: Tat
 --- !u!1 &160422
 GameObject:
   m_ObjectHideFlags: 0
