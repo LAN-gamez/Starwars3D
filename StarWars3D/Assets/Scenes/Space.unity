@@ -11831,7 +11831,7 @@ PrefabInstance:
     - target: {fileID: 2369268, guid: 27fe6d2a15a377f4587f716a2d37ca8a, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: c34307182ac2cb948a6c9fc586756e14, type: 2}
+      objectReference: {fileID: 2100000, guid: 943fd52b029cc644a975474408af416e, type: 2}
     - target: {fileID: 11491094, guid: 27fe6d2a15a377f4587f716a2d37ca8a, type: 3}
       propertyPath: spin
       value: 0
@@ -12842,7 +12842,7 @@ PrefabInstance:
     - target: {fileID: 2367716, guid: 27fe6d2a15a377f4587f716a2d37ca8a, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: f13991357ee03cb41a977477981be53f, type: 2}
+      objectReference: {fileID: 2100000, guid: a8bafeb9ce249ad449cd43f428bf7668, type: 2}
     - target: {fileID: 11491094, guid: 27fe6d2a15a377f4587f716a2d37ca8a, type: 3}
       propertyPath: spin
       value: 1
